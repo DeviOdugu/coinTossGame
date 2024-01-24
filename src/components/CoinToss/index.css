@@ -1,0 +1,65 @@
+/* Write your CSS here */
+.bg {
+  background-image: linear-gradient(to left, #e2a139, #f9d423);
+  margin: 40px;
+  padding: 40px;
+  margin-right: 500px;
+}
+@media screen and (min-width: 1000px) {
+  .bg {
+    margin: 20px;
+    margin-right: 850px;
+    padding-left: 130px;
+    padding-right: 130px;
+  }
+}
+.card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+.heading {
+  color: #a35200;
+}
+.ht {
+  color: #334155;
+  font-weight: 700;
+}
+.image {
+  margin-bottom: 20px;
+}
+.button {
+  background-color: #f9d423;
+  color: #a35200;
+  font-weight: 700;
+  border-radius: 4px;
+  border: none;
+  padding: 7px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.a {
+  display: flex;
+  justify-content: center;
+}
+.count {
+  padding: 10px;
+  color: #475569;
+  font-weight: 600;
+}
+@media screen and (max-width: 576px) {
+  .bg {
+    margin-right: 0px;
+    margin: 30px;
+  }
+  .heading {
+    font-size: 22px;
+  }
+  .count {
+    font-size: 11px;
+  }
+}
